@@ -1,6 +1,8 @@
 require "bundler/setup"
 require "door_to_door"
 
+require_relative './support/request_receiver_spy'
+
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
   config.example_status_persistence_file_path = ".rspec_status"
