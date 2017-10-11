@@ -2,6 +2,7 @@ require "bundler/setup"
 require "door_to_door"
 
 require_relative './support/request_receiver_spy'
+require_relative './support/app_routes'
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
